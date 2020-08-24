@@ -14,7 +14,9 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh "echo 'Deploying...'"
+                sh "echo Second version Deploying a configuration - To be replace by a real configuration"
             }
         }
+        
     }
 }
